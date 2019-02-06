@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h5>Bootstrap Modal</h5>
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#largeModal">
+            Large Modal
+        </button>
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mediumModal">
+            Medium Modal
+        </button>
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#smallModal">
+            Small Modal
+        </button>
+    </div>
+
+    <div class="modal fade" id="largeModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h4>Large Modal</h4>
+                    <span class="close" data-dismiss="modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    Cascading Style Sheet (CSS) merupakan aturan untuk
+                    mengatur beberapa komponen dalam sebuah web sehingga
+                    akan lebih terstruktur dan seragam. CSS bukan merupakan
+                    bahasa pemograman.
+                </div>
+                <div class="modal-footer">
+                    <button typr="button" class="btn btn-sm btn-success">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumModal">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h4>Medium Modal</h4>
+                    <span class="close" data-dismiss="modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    Cascading Style Sheet (CSS) merupakan aturan untuk
+                    mengatur beberapa komponen dalam sebuah web sehingga
+                    akan lebih terstruktur dan seragam. CSS bukan merupakan
+                    bahasa pemograman.
+                </div>
+                <div class="modal-footer">
+                    <button typr="button" class="btn btn-sm btn-info">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="smallModal">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h4>Large Modal</h4>
+                    <span class="close" data-dismiss="modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    Cascading Style Sheet (CSS) merupakan aturan untuk
+                    mengatur beberapa komponen dalam sebuah web sehingga
+                    akan lebih terstruktur dan seragam. CSS bukan merupakan
+                    bahasa pemograman.
+                </div>
+                <div class="modal-footer">
+                    <button typr="button" class="btn btn-sm btn-danger">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
